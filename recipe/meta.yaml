@@ -1,5 +1,5 @@
 {% set name = "types-filelock" %}
-{% set version = "3.2.6" %}
+{% set version = "3.2.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-filelock-{{ version }}.tar.gz
-  sha256: 81647b3ce2d81a704e5d6a66c1a4c935aafb780ae332c370af10598c6ebfb712
+  sha256: 0673a25b45725c5c45661fe3744c3d8058653a16e683f0ae4a74afb44a0cdef4
 
 build:
   number: 0
